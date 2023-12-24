@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer" Version="6.3.7" />
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.7" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="6.3.7" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework.Storage" Version="6.3.7" />
+    <PackageReference Include="Duende.IdentityServer.Storage" Version="6.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamePriceFinder.DataAccess\GamePriceFinder.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
